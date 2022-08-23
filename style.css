@@ -1,0 +1,63 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+}
+main{
+  display: flex;
+  margin: 30px ;
+  justify-items: center;
+  align-items: center;
+}
+img{
+  width: 40px;
+  margin-bottom: 15px;
+}
+#sedans{
+  width: 200px;
+  background-color: hsl(31, 77%, 52%);
+  padding: 20px;
+}
+#suvs{
+  width: 200px;
+  background-color: hsl(184, 100%, 22%);
+  padding: 20px;
+}
+#luxury{
+  background-color: hsl(179, 100%, 13%);
+  padding:20px;
+  width: 200px;
+}
+h1{
+  color: hsl(0, 0%, 95%) ;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+p{
+ color: hsla(0, 0%, 100%, 0.75);
+ font-size: 10px;
+ margin-bottom: 40px;
+}
+button{
+  border: none;
+  padding: 7px 15px;
+  font-size: 9px;
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 95%) ;
+  cursor: pointer;
+}
+#orange{
+ 
+  color: hsl(31, 77%, 52%);
+}
+#dark-cyan{
+  color: hsl(179, 100%, 13%);
+}
+#light-cyan{
+  color:hsl(184, 100%, 22%) ;
+}
+@media  (max-width:400px) {
+  main{
+    display: flex;
+    flex-direction: column;
+  }
+}
